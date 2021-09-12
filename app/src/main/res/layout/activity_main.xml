@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE082"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/bithday_two"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/happy_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="Happy"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textSize="50sp"/>
+
+        <TextView
+            android:id="@+id/birthday_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birthday"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            android:textSize="50sp"/>
+
+        <TextView
+            android:id="@+id/name_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandy"
+            android:textStyle="italic"
+            android:layout_marginRight="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="230dp"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textSize="50sp"/>
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="WishHere"
+        android:layout_margin="16dp"
+        android:text="Wish me here"/>
+
+
+</LinearLayout>
